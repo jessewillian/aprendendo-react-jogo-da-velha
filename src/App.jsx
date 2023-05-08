@@ -1,5 +1,8 @@
+import './generic/reset.css';
+import './App.css';
+
 export default function App() {
   return (
-    <h1>Limpeza Projeto</h1>
+    <a href="#to-do" className="action">Sobre</a>
   )
-};
+}
