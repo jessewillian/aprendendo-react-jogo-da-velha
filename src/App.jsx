@@ -1,7 +1,7 @@
-import './App.css';
+import Sobre from './objects/Sobre';
 
 export default function App() {
   return (
-    <a href="#to-do" className="action">Sobre</a>
-  )
+    <Sobre />  
+  );
 }
