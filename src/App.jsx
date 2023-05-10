@@ -1,7 +1,7 @@
-import Sobre from './objects/Sobre';
+import Header from './components/Header/Header';
 
 export default function App() {
   return (
-    <Sobre />  
+    <Header/>  
   );
 }
