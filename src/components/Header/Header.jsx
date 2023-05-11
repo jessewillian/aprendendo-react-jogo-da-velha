@@ -1,3 +1,4 @@
+import './header.css';
 import Logo from "../../objects/Sobre/Logo/Logo";
 import Sobre from "../../objects/Sobre/Sobre";
 import Menu from "../../objects/Menu/Menu";
