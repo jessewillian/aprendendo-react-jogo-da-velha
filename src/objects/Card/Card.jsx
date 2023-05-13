@@ -4,7 +4,7 @@ import './card.css';
 export default function Card() {
     return (
         <article className="card">
-            <Player />
+            <Player player="x"/>
         </article>
     );
 }

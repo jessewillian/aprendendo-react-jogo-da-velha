@@ -1,11 +1,15 @@
 import './player.css';
 import playerX from '../../img/player-x.png';
-import playerCircle from '../../img/player-circle.png';
+import playerO from '../../img/player-circle.png';
 
-export default function Player() {
+export default function Player({player}) {
+    const players = [];
+    players['x'] = playerX;
+    players['o'] = playerO
+
     return (
         <button className='player'>
-            <img src={playerX} alt="Jogador X" />
-        </button>
+            <img src={players[player]} alt={`Jogador ${player.toUpperCase()}`} />
+        </button>  
     );
 }
