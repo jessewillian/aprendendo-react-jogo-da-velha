@@ -1,10 +1,9 @@
-import Player from '../Player/Player';
 import './card.css';
 
-export default function Card() {
+export default function Card({children}) {
     return (
         <article className="card">
-            <Player player="x"/>
+            {children}
         </article>
     );
 }
