@@ -1,7 +1,7 @@
 import "./label.css";
 
-export default function Label({ content }) {
+export default function Label({ htmlFor, content }) {
   return (
-    <label htmlFor="" className="label">{ content }</label>
+    <label htmlFor={ htmlFor } className="label">{ content }</label>
   )
 }
