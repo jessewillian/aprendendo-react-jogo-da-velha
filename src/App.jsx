@@ -2,14 +2,14 @@ import './App.css';
 
 import Header from './components/Header/Header';
 import Hashtag from './components/Hashtag/Hashtag';
-import Input from './objects/Input/Input';
+import Checkbox from './objects/Checkbox/Checkbox';
 
 export default function App() {
   return (
     <main className="app">
       <Header/>
       <Hashtag />
-      <Input value={ "Show" } id={ "show" } content={ "Mostrar eventos" }/>
+      <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos"/>
     </main>
   );
 }

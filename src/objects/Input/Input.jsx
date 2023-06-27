@@ -1,11 +1,8 @@
-import Label from '../Label/Label';
 import './input.css';
 
-export default function Input({ id, value, content }) {
+// eslint-disable-next-line react/prop-types
+export default function Input({ id = "", value = "", type = "text" }) {
   return (
-    <>
-        <input id={ id } type="checkbox" value={ value } />
-        <Label htmlFor={ id } content={ content }/>
-    </>
+      <input id={ id } type={ type } value={ value } />
   )
 }
