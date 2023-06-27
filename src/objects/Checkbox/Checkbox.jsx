@@ -1,3 +1,4 @@
+import "./checkbox.css";
 import Label from "../Label/Label"
 import Input from "../Input/Input";
 

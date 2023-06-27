@@ -3,6 +3,6 @@ import './input.css';
 // eslint-disable-next-line react/prop-types
 export default function Input({ id = "", value = "", type = "text" }) {
   return (
-      <input id={ id } type={ type } value={ value } />
+      <input className="input" id={ id } type={ type } value={ value } />
   )
 }
